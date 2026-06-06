@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, Navigate } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import { AppLayout } from "@/layout/app-layout.tsx";
 import { DashboardPage } from "@/pages/dashboard.tsx";
@@ -17,6 +17,10 @@ const router = createBrowserRouter([
 		path: "/",
 		Component: AppLayout,
 		children: [
+			{
+				index: true,
+				element: <Navigate to="dashboard" replace />,
+			},
 			{
 				path: "dashboard",
 				Component: DashboardPage,
@@ -38,6 +42,10 @@ const router = createBrowserRouter([
 				Component: EnergyTransitionPage,
 			},
 		],
+	},
+	{
+		path: "*",
+		element: <Navigate to="/" replace />,
 	},
 ]);
 
