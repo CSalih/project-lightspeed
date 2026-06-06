@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"type": "Planned",
+		"status": "Active",
+		"startTime": "2024-06-10T09:00:00Z",
+		"endTime": "2024-06-10T13:00:00Z",
+		"area": "Downtown Sector A",
+		"reason": "Grid Maintenance",
+		"message": "Scheduled maintenance to improve grid reliability in your area."
+	},
+	{
+		"id": 2,
+		"type": "Unplanned",
+		"status": "Resolved",
+		"startTime": "2024-05-20T14:30:00Z",
+		"endTime": "2024-05-20T16:00:00Z",
+		"area": "Westside",
+		"reason": "Storm Damage",
+		"message": "Outage caused by fallen tree branch. Service has been restored."
+	}
+]

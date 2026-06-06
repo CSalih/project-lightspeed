@@ -1,0 +1,9 @@
+{
+	"hasSolar": true,
+	"currentProduction": 4.2,
+	"historicalProduction": 1250,
+	"exportedToGrid": 450,
+	"importedFromGrid": 800,
+	"financialCredits": 108.0,
+	"accumulatedBalance": -250
+}

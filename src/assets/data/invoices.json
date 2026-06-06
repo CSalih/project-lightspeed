@@ -1,0 +1,46 @@
+[
+	{
+		"id": "INV-001",
+		"date": "2024-05-01",
+		"amount": 125.5,
+		"status": "Paid",
+		"consumptionCharges": 85.2,
+		"gridCharges": 25.3,
+		"taxes": 15.0,
+		"discounts": 0.0,
+		"previousAmount": 118.0
+	},
+	{
+		"id": "INV-002",
+		"date": "2024-04-01",
+		"amount": 118.0,
+		"status": "Paid",
+		"consumptionCharges": 78.5,
+		"gridCharges": 24.5,
+		"taxes": 15.0,
+		"discounts": 0.0,
+		"previousAmount": 135.2
+	},
+	{
+		"id": "INV-003",
+		"date": "2024-03-01",
+		"amount": 135.2,
+		"status": "Paid",
+		"consumptionCharges": 92.4,
+		"gridCharges": 27.8,
+		"taxes": 15.0,
+		"discounts": 0.0,
+		"previousAmount": 142.1
+	},
+	{
+		"id": "INV-004",
+		"date": "2024-06-01",
+		"amount": 42.15,
+		"status": "Pending",
+		"consumptionCharges": 28.1,
+		"gridCharges": 10.05,
+		"taxes": 4.0,
+		"discounts": 0.0,
+		"previousAmount": 125.5
+	}
+]

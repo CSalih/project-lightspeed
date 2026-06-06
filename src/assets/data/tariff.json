@@ -1,0 +1,9 @@
+{
+	"planName": "Green Energy Plus",
+	"pricePerKwh": 0.24,
+	"startDate": "2023-01-01",
+	"renewalDate": "2025-01-01",
+	"terms": "Fixed rate for 24 months, 100% renewable energy source.",
+	"gridCharges": 0.08,
+	"taxesAndFees": "Approx. 12% of total"
+}

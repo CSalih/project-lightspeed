@@ -6,7 +6,10 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import { AppLayout } from "@/layout/app-layout.tsx";
 import { DashboardPage } from "@/pages/dashboard.tsx";
+import { EnergyTransitionPage } from "@/pages/energy-transition.tsx";
 import { InvoicePage } from "@/pages/invoice.tsx";
+import { InvoiceDetailPage } from "@/pages/invoice-detail.tsx";
+import { SupportPage } from "@/pages/support.tsx";
 import { Providers } from "@/providers";
 
 const router = createBrowserRouter([
@@ -21,6 +24,18 @@ const router = createBrowserRouter([
 			{
 				path: "invoice",
 				Component: InvoicePage,
+			},
+			{
+				path: "invoice-detail",
+				Component: InvoiceDetailPage,
+			},
+			{
+				path: "support",
+				Component: SupportPage,
+			},
+			{
+				path: "energy-transition",
+				Component: EnergyTransitionPage,
 			},
 		],
 	},

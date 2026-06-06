@@ -1,4 +1,10 @@
-import { ChartBarIcon, CommandIcon, LayoutDashboardIcon } from "lucide-react";
+import {
+	ChartBarIcon,
+	CommandIcon,
+	LayoutDashboardIcon,
+	LifeBuoyIcon,
+	ZapIcon,
+} from "lucide-react";
 import type * as React from "react";
 import { Link } from "react-router";
 import { NavMain } from "@/components/nav-main";
@@ -26,9 +32,19 @@ const data = {
 			icon: <LayoutDashboardIcon />,
 		},
 		{
-			title: "Invoice",
+			title: "Billing",
 			url: "/invoice",
 			icon: <ChartBarIcon />,
+		},
+		{
+			title: "Support",
+			url: "/support",
+			icon: <LifeBuoyIcon />,
+		},
+		{
+			title: "Energy Transition",
+			url: "/energy-transition",
+			icon: <ZapIcon />,
 		},
 	],
 };
