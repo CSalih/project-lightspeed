@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import { Outlet } from "react-router";
 import { AppSidebar } from "@/components/app-sidebar.tsx";
+import { SiteHeader } from "@/components/site-header.tsx";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar.tsx";
 
 export function AppLayout() {
@@ -15,6 +16,7 @@ export function AppLayout() {
 		>
 			<AppSidebar variant="inset" />
 			<SidebarInset>
+				<SiteHeader />
 				<Outlet />
 			</SidebarInset>
 		</SidebarProvider>

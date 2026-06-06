@@ -7,6 +7,6 @@ describe("SiteHeader", () => {
 	it("renders breadcrumbs and separator", () => {
 		renderWithRouter(<SiteHeader />);
 
-		expect(screen.getByText("Documents")).toBeInTheDocument();
+		expect(screen.getByText("Lightspeed Platform")).toBeInTheDocument();
 	});
 });
